@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ListDemo</string>
+    <string name="str_handler_download">下载</string>
+    <string name="str_main_handler">Handler演示实例</string>
+    <string name="str_main_permission">权限申请实例</string>
+    <string name="str_permission_write">写入文件内容</string>
+    <string name="str_permission_hint_content">请输入文件内容</string>
+    <string name="str_permission_read">读取文件内容</string>
+    <string name="str_permission_hint_expand_name">请输入文件后缀名</string>
+    <string name="str_permission_search">搜索文件路径</string>
+    <string name="str_permission_path">文件路径</string>
+    <string name="str_paging_loading">正在加载</string>
+    <string name="str_main_paging">分页加载实例</string>
+    <string name="str_main_recycler">RecyclerView实例</string>
+    <string name="str_recycler_linear">线性布局</string>
+    <string name="str_recycler_stagger">瀑布流</string>
+    <string name="str_recycler_grid">网格布局</string>
+    <string name="str_menu_add">添加</string>
+    <string name="str_menu_delete">删除</string>
+    <string name="str_menu_setting">设置</string>
+    <string name="str_main_ripple">涟漪效果实例</string>
+    <string name="str_ripple_button">自定义按钮</string>
+    <string name="str_menu_about">关于</string>
+    <string name="str_main_drag">拖动实例</string>
+    <string name="str_main_bezier">Bezier曲线实例</string>
+    <string name="str_menu_reset">重置</string>
+    <string name="str_menu_pad">绘图板</string>
+    <string name="str_menu_test">演示</string>
+    <string name="str_menu_three">三/二阶</string>
+    <string name="str_menu_anim">路径动画</string>
+    <string name="str_menu_wave">波浪效果</string>
+    <string name="str_menu_path">路径动画</string>
+</resources>

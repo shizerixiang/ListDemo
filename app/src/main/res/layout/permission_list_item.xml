@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/list_item_click"
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp">
+
+    <TextView
+        android:id="@+id/id_permission_item_path"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/str_permission_path"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shize.listdemo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/id_main_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openHandlerTest"
+        android:text="@string/str_main_handler" />
+
+    <Button
+        android:id="@+id/id_main_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_handler"
+        android:onClick="openPermissionTest"
+        android:text="@string/str_main_permission" />
+
+    <Button
+        android:id="@+id/id_main_paging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_permission"
+        android:onClick="openPagingTest"
+        android:text="@string/str_main_paging" />
+
+    <Button
+        android:id="@+id/id_main_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_paging"
+        android:onClick="openRecyclerTest"
+        android:text="@string/str_main_recycler" />
+
+    <Button
+        android:id="@+id/id_main_ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_recycler"
+        android:onClick="openRippleTest"
+        android:text="@string/str_main_ripple" />
+
+    <Button
+        android:id="@+id/id_main_drag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_ripple"
+        android:onClick="openDragTest"
+        android:text="@string/str_main_drag" />
+
+    <Button
+        android:id="@+id/id_main_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_drag"
+        android:onClick="openBezierTest"
+        android:text="@string/str_main_bezier" />
+
+</RelativeLayout>

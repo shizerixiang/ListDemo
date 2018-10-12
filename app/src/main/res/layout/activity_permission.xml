@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/id_permission_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_permission_hint_content" />
+
+    <Button
+        android:id="@+id/id_permission_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_permission_content"
+        android:onClick="onWriteButtonClick"
+        android:text="@string/str_permission_write" />
+
+    <Button
+        android:id="@+id/id_permission_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_permission_write"
+        android:onClick="onReadButtonClick"
+        android:text="@string/str_permission_read" />
+
+    <EditText
+        android:id="@+id/id_permission_expand_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_permission_read"
+        android:hint="@string/str_permission_hint_expand_name" />
+
+    <Button
+        android:id="@+id/id_permission_file_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_permission_expand_name"
+        android:onClick="onSearchFileButtonClick"
+        android:text="@string/str_permission_search" />
+
+    <ListView
+        android:id="@+id/id_permission_list_result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/id_permission_file_search"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
